@@ -1,0 +1,10 @@
+[project]
+name = "shields-vibe-clone"
+version = "0.1.0"
+description = "Happy-path FastAPI flat-badge stub for a vibe-coding article"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.159.1",
+    "uvicorn[standard]>=0.54.0",
+]
